@@ -20,7 +20,7 @@ export default function Contact() {
         <div className='name-field'><label>First Name
           <input 
           type="text"
-          name='f-name'
+          name='first-name'
           placeholder='Enter your first name'
           required /></label></div>
         <div className='name-field'><label>Last Name
@@ -28,7 +28,7 @@ export default function Contact() {
         type="text"
         required
         name='l-name'
-        id='l-name'
+        id='last-name'
         placeholder='Enter your last name' /></label></div>
         </div>
         <div className="email">
@@ -39,11 +39,12 @@ export default function Contact() {
             <div><label>Message</label></div>
             <textarea
             required
+            id='message'
             placeholder="Send me a message and I'll reply as soon as possible...">
             </textarea>
             <p><input type="checkbox" name="agree" id="agree" required />   You are agreeing to providing your data to Daniel who may contact you.</p>
             <div className="submit">
-            <button type="submit" id='submit'>Send Message</button>
+            <button type="submit" id='btn__submit'>Send Message</button>
             </div>
         </div>
       </form>
