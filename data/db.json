@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Why you need to delete social media.",
+      "body": "Lorem ipsum...",
+      "author": "Adonis",
+      "id": 1
+    },
+    {
+      "title": "Why you need to delete social media.",
+      "body": "Lorem ipsum...",
+      "author": "Adonis",
+      "id": 2
+    },
+    {
+      "title": "Why you need to delete social media.",
+      "body": "Lorem ipsum...",
+      "author": "Adonis",
+      "id": 3
+    }
+  ]
+}
